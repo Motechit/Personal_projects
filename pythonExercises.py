@@ -148,6 +148,48 @@ for i in range(stump_spaces):
     print(" ", end="")
 print("#")
 """
+# Boolean Exercise Solution
+# 1
+# today = input("What day is it? ")
+# is_weekend = True
+# if today in ["saturday", "sunday"]:
+#     print(is_weekend, "It's the weekend?")
+# else:
+#     print(False, "It isn't weekend yet!")
+
+# 2
+# same_number_of_fingers = input("Do you have the same no of fingers on both hands? True/False: ")
+#
+# if same_number_of_fingers == "True":
+#     print("You have equal number of fingers")
+# else:
+#     print("No, your hands aren't equal")
+
+# 3
+# age = int(input("Let's check if you're a teenager? "))
+# is_even = True if age % 2 == 0 else False
+# is_teenage = True if 13 <= age <= 19 else False
+# if is_teenage == True:
+#     print("Yes, you are a Teenage")
+# else:
+#     print("No, You are either too young or in your youth")
+
+# 4
+# letter_check = input("Do you have a letter \"a\" in your name? ")
+# has_letter_a = True if "a" in letter_check else False
+# print(has_letter_a)
+
+# 5
+has_pen = True
+has_paper = False
+can_write = True if has_pen and has_paper == True else False
+# print(can_write)
+
+# 6
+is_daytime = True
+is_winter = False
+wear_coat = True if is_daytime and is_winter == True else False
+# print(wear_coat)
 
 
 
